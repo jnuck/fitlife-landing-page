@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="https://fav.farm/💪🏼" />
+    <title>FitLife</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="assets/fitlife_logo.png"
+                alt="FitLife Logo"
+                width="100px"
+            /></a>
+          </div>
+
+          <!-- Desktop nav -->
+
+          <div class="nav-links">
+            <a href="#programs">Program</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#testimonials">Testimonials</a>
+            <button class="btn"><a href="#">Join</a></button>
+          </div>
+
+          <!-- Button to toggle mobile nav -->
+          <i
+            id="menu"
+            class="fa-solid fa-bars fa-2xl"
+            style="color: #ffffff"
+          ></i>
+        </div>
+
+        <!-- Mobile nav -->
+
+        <div class="mobile-menu hidden">
+          <i
+            id="close-btn"
+            class="fa-solid fa-xmark fa-2xl"
+            style="color: #fff"
+          ></i>
+          <ul class="mobile-menu-links">
+            <li><a href="#programs">Program</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <main>
+        <!-- Hero section -->
+
+        <section class="hero">
+          <div class="hero-content">
+            <div class="main-text">
+              <h2>Elevate your health.</h2>
+              <p class="hero-txt">
+                We are commited to helping you achieve your fitness goals and
+                lead a happier, healther life.
+              </p>
+            </div>
+            <div class="join-play">
+              <button class="btn"><a href="#">Join Us</a></button>
+              <span id="play"
+                ><i
+                  id="play-btn"
+                  class="fa-regular fa-circle-play fa-2xl"
+                  style="color: #ffffff"
+                ></i
+                >Watch Video</span
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- Programs section -->
+
+        <section class="programs" id="programs">
+          <div class="programs-text">
+            <h3 class="offer-title">The programs we offer to you</h3>
+            <p class="offer-text">
+              We offer a wide range of comprehensive fitness programs designed
+              for invididuals of all fitness levels. <br />
+              Our aim is to help achieve specific goals and maximize results.
+            </p>
+          </div>
+
+          <div class="box-container">
+            <div class="programs-box">
+              <i class="fa-solid fa-dumbbell fa-2xl"></i>
+              <h4>Strength</h4>
+              <p class="box-desc">
+                Strength training at our gym is all about building a stronger,
+                more resilient you.
+              </p>
+              <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="programs-box">
+              <i class="fa-solid fa-heart-circle-bolt fa-2xl"></i>
+              <h4>Cardio</h4>
+              <p class="box-desc">
+                Strength training at our gym is all about building a stronger,
+                more resilient you.
+              </p>
+              <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="programs-box">
+              <i class="fa-solid fa-arrow-trend-down fa-2xl"></i>
+              <h4>Weight Loss</h4>
+              <p class="box-desc">
+                Strength training at our gym is all about building a stronger,
+                more resilient you.
+              </p>
+              <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="programs-box">
+              <i class="fa-solid fa-spa fa-2xl"></i>
+              <h4>Yoga</h4>
+              <p class="box-desc">
+                Strength training at our gym is all about building a stronger,
+                more resilient you.
+              </p>
+              <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- Pricing Section -->
+
+        <section class="pricing" id="pricing">
+          <div class="pricing-text">
+            <h3 class="pricing-title">We offer you the best memberships</h3>
+            <p class="pricing-subtext">
+              We offer a range of membership options to suit your goals,
+              lifestyle, and budget, making it easier than ever to embark on
+              your fitness journey.
+            </p>
+          </div>
+
+          <div class="plans">
+            <div class="plan" id="standard-plan">
+              <h3>Standard Plan</h3>
+              <p class="price">$34.99</p>
+              <div class="plan-subtext">Per Month</div>
+              <ul class="benefits">
+                <li><i class="fa-solid fa-check"></i>Gym Visits</li>
+                <li>
+                  <i class="fa-solid fa-check"></i>Visits to the Bath Complex
+                </li>
+                <li><i class="fa-solid fa-check"></i>Group Attendance</li>
+              </ul>
+              <button>Choose Plan</button>
+            </div>
+
+            <div class="plan" id="platinum-plan">
+              <h3>Platinum Plan</h3>
+              <p class="price">$99.99</p>
+              <div class="plan-subtext">Per Month</div>
+              <ul class="benefits">
+                <li><i class="fa-solid fa-check"></i>Unlimited Club Access</li>
+                <li><i class="fa-solid fa-check"></i>Gym Visits</li>
+                <li>
+                  <i class="fa-solid fa-check"></i>Visits to the Bath Complex
+                </li>
+                <li><i class="fa-solid fa-check"></i>Gym, Fight Club</li>
+                <li><i class="fa-solid fa-check"></i>Group Attendance</li>
+              </ul>
+              <button>Choose Plan</button>
+            </div>
+
+            <div class="plan" id="premium-plan">
+              <h3>Premium Plan</h3>
+              <p class="price">$49.99</p>
+              <div class="plan-subtext">Per Month</div>
+              <ul class="benefits">
+                <li><i class="fa-solid fa-check"></i>Unlimited Club Access</li>
+                <li><i class="fa-solid fa-check"></i>Gym Visits</li>
+
+                <li><i class="fa-solid fa-check"></i>Gym, Fight Club</li>
+                <li><i class="fa-solid fa-check"></i>Group Attendance</li>
+              </ul>
+              <button>Choose Plan</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Testimonials section -->
+
+        <section class="testimonials" id="testimonials">
+          <div class="testimonials-text">
+            <h3 class="testimonials-title">
+              What our happy clients say about us
+            </h3>
+            <p class="testimonials-subtext">
+              At FitLife Gyms, our success is measured by the satisfaction and
+              progress of our members. Here's what some of them have to say
+              about their experience:
+            </p>
+          </div>
+
+          <div class="review">
+            <div class="profile-picture"></div>
+            <h3 class="username">Frank Fanning Jr.</h3>
+            <p class="review-text">
+              "I've been a member of FitLife for over a year now, and it's been
+              a game-changer for my fitness journey. The trainers are amazing,
+              and the personalized workouts have helped me reach my goals faster
+              than I ever thought possible"
+            </p>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="newsletter">
+          <h3>Join with us today:</h3>
+          <form class="email-form" action="">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your E-Mail address"
+              id="email"
+            />
+            <button class="btn" type="submit">Sign Up</button>
+          </form>
+        </div>
+
+        <div class="socials">
+          <a href="#"
+            ><i class="fa-brands fa-youtube fa-2xl" style="color: #fff"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-instagram fa-2xl" style="color: #fff"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-facebook fa-2xl" style="color: #fff"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-x-twitter fa-2xl" style="color: #f3f1ff"></i
+          ></a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7ed691155c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
